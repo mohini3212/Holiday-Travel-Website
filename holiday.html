@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Travel</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --primary-color:#3a3352;
+            --secondary-color:#09090a;
+            --white-color:hsl(255, 11%, 86%);
+           --primary-color:#3a3352;
+           --primary-font:"Roboto", sans-serif;
+           --secondary-font: "Poppins", sans-serif;
+        }
+        body{
+            color: var(--white-color);
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            background-image: linear-gradient(rgba(141, 141, 116, 0.65) ,rgba(132, 141, 116, 0.65)), url("images/banner-3.jpg");
+            background-position: center;
+            background-size: cover;
+            padding: 14px  8%;
+
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .logo{
+            font-size: larger;
+            color: rgb(238, 180, 110);
+            font-weight: 320px;
+            width: 100px;
+            cursor: pointer;
+        }
+        nav ul{
+            list-style: none;
+            width: 100%;
+            text-align: right;
+            padding-right: 60px;
+            font-family: 320px;
+        }
+        nav ul li_{
+            display: inline-block;
+            margin: 10px 20px;
+        }
+        nav ul li a{
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        .btn{
+            
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="logo">HOLIDAY</div>
+    <nav>
+        <ul>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">ABOUT US</a></li>
+           <li><a href="#">OUR TOUR</a></li>
+           <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+        <div class="content">
+<h1>PROIN GRAVINDA NIBHVELL</h1>
+<P>VELIT AUCTOR</P>
+<button class="btn">Learn more</button>
+    </div>
+   </div> 
+</body>
+</html>

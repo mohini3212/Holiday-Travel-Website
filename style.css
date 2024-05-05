@@ -14,6 +14,9 @@
     --primary-font: "Playfair Display", serif;;
     --secondary-font: "Poppins", sans-serif;
 }
+body{
+    background-color: rgb(224, 224, 224);
+}
 
 /* Utility Class */
 
@@ -108,4 +111,130 @@
     font-family: var(--secondary-font);
     color: var(--white-color);
     margin-bottom: 24px;
+}
+/* images */
+.images .card-section{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 45px;
+}
+.images .card-section .card{
+   width: 320px; 
+   margin: 12px;
+   padding: 14px; 
+  
+   border-radius: 8px;
+    
+}
+.images .card-section .card img{
+    max-width: 320px;
+    height: 300px;
+    border-radius: 8px;
+}
+.images .card-section .card .card-body h4{
+    margin-bottom:8px ;
+}
+/* card content*/
+.content h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+}
+.content .card-section{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .card-section .card{
+    width: auto; 
+    background-color: #fff;
+    margin: 12px;
+    border-radius: 8px;
+}
+.content .card-section .card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}  
+.content .card-section .card .card-body{
+    background-color: #ffffff;
+}
+.content .card-section .card .card-body h4{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+
+}
+.content .card-section .card .card-body h5{
+
+    margin-bottom:8px ;
+    font-size: 10px;
+    font-weight: 100;
+    color: gray;
+
+}
+
+/* packages */
+.packages h1{
+    margin-top: 30px;
+    text-align: center;
+font-weight: 900;
+font-size: 40px;
+}
+.packages .card-section{
+    margin-top: 16px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.packages .card-section .card{
+    width: 302px; 
+    margin: 12px;
+    padding: 14px; 
+       border-radius: 8px;
+}
+.packages .card-section .card img{
+    max-width: 280px;
+    height: 216px;
+    border-radius: 8px;
+}  
+.packages .card-section .card .card-body h4{
+    margin-bottom:8px ;
+}
+.packages .card-section .card .card-body p{
+    color: #000000;
+    font-size: 14px;
+}
+
+.packages1 .card-section{
+    margin-top: 16px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 35px;
+}
+.packages1 .card-section .card{
+    width: 320px; 
+    margin: 12px;
+    padding: 14px; 
+       border-radius: 8px;
+}
+.packages1 .card-section .card img{
+    max-width: 280px;
+    height: 216px;
+    border-radius: 8px;
+}  
+.packages1 .card-section .card .card-body h4{
+    margin-bottom:8px ;
+}
+.packages1 .card-section .card .card-body p{
+    color: #000000;
+    font-size: 14px;
 }
